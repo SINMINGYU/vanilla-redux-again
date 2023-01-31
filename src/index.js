@@ -7,6 +7,7 @@ const ul = document.querySelector('ul');
 const ADD_TODO = 'ADD_TODO';
 const DELETE_TODO = 'DELETE_TODO';
 
+/* action creator 액션 객체를 반환함 */
 const addToDo = (text) => {
 	return {
 		type: ADD_TODO,
